@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2? family= Archivo+Narrow:ital,wght@1,400;1,500 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "narrow", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./imagenes/ecobox.jpg);
+    background-size: cover;
+    background-image: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    height: 122px;
+    border-radius: 50%;
+    }
+
+.menu {
+    background:rgb(27, 116, 108);
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+
+.nav-link {
+    color: whitesmoke;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color:rgb(66, 179, 135);
+}
